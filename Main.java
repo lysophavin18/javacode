@@ -1,17 +1,24 @@
-import java.util.ArrayList;
 public class Main {
-    public static void main(String[] args) {
-        ArrayList<Integer> number = new ArrayList<Integer>();
+ public static void main(String[] args){
+     car my_car = new car();
+     System.out.println("===============================");
+     System.out.println("make: " +my_car.make);
+     System.out.println("Model: " + my_car.model);
+     System.out.println("Prince: " + my_car.prince);
+     System.out.println("Year: "  +my_car.year);
+     my_car.drive();
+     my_car.Drive_with_Girlfriend();
+     System.out.println("===============================");
+     car mom_Car = new car();
+     System.out.println("My mom make: " + mom_Car.make);
+     System.out.println("My mom Model: " + mom_Car.model);
+     System.out.println("My mom Prince: " + mom_Car.prince);
+     System.out.println("My mom Car year: " + mom_Car.year);
+     mom_Car.brake();
+     System.out.println("===============================");
+     Book my_book = new Book();
 
-        number.add(1); // list start from index 0
-        number.add(2);
-        number.add(3);
-        number.add(4);
-        number.add(5); // add list
-
-        number.remove(Integer.valueOf(4));  //remove list
-        number.set(2, Integer.valueOf(30)); //Update list
-        number.clear(); // clear all list
-        System.out.println(number);
-    }
+     System.out.println("Author: " + my_book.author);
+     System.out.println("Tittle: " + my_book.title);
+ }
 }
