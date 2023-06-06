@@ -4,7 +4,17 @@ public class weeklyhours {
     public static void main(String[] args) {
         // Create a HashMap to store the weekly hours for each employee
         HashMap<String, Integer> weeklyHours = new HashMap<>();
-
+        System.out.println("==============================================\n");
+        System.out.println("\t\t\t\t\tSu  M  T W  Th  F  Sa\n");
+        System.out.println("\t\t\tEmployee0 2  4  3  4  5  8  8\n" +
+                "            Employee1 7  3  4  3  3  4  4\n" +
+                "            Employee2 3  3  4  3  3  2  2\n" +
+                "            Employee3 9  3  4  7  3  4  1\n" +
+                "            Employee4 3  5  4  3  6  3  8\n" +
+                "            Employee5 3  4  4  6  3  4  4\n" +
+                "            Employee6 3  7  4  8  3  8  4\n" +
+                "            Employee7 6  3  5  9  2  7  9");
+        System.out.println("=============================================\n");
 
         weeklyHours.put("Employee0", 2 + 4 + 3 + 4 + 5 + 8 + 8);
         weeklyHours.put("Employee1", 7 + 3 + 4 + 3 + 3 + 4 + 4);
